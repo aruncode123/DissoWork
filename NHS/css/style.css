@@ -1,0 +1,97 @@
+
+.logo
+{
+    width: 160px;
+    height: 40px;
+}
+.top-bar{
+    background: #005eb8 !important;;
+}
+
+ /** ====================
+ * Comments List 
+ =======================*/
+
+ .comments-list {
+     margin-top: 30px;
+     position: relative;
+ }
+
+ /**
+ * Comments - details
+ -----------------------*/
+
+
+
+
+ .comments-list li {
+     margin-bottom: 15px;
+     display: block;
+     position: relative;
+ }
+
+
+
+ .reply-list {
+     padding-left: 88px;
+     clear: both;
+     margin-top: 15px;
+ }
+
+
+ /**
+ * -------------- Comment Box ---------------------------*/
+ .comments-list .comment-box {
+    width: 680px;
+    position: relative;
+     -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+     -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+ }
+ .comment-box .comment-head {
+     background: white;
+     padding: 10px 12px;
+     border: 1px solid black;
+     overflow: hidden;
+     -webkit-border-radius: 4px 4px 0 0;
+     -moz-border-radius: 4px 4px 0 0;
+     border-radius: 4px 4px 0 0;
+ }
+
+ .comment-box .comment-name {
+     color: #007bff;
+     font-size: 14px;
+     font-weight: 700;
+     float: left;
+     margin-right: 10px;
+ }
+
+
+ .comment-box .comment-content {
+     background: white;
+     padding: 12px;
+     word-wrap: break-word;
+     font-size: 15px;
+     color: black;
+     border: 1px solid black;
+     -webkit-border-radius: 0 0 4px 4px;
+     -moz-border-radius: 0 0 4px 4px;
+     border-radius: 0 0 4px 4px;
+ }
+
+ /** =====================
+ * Responsive
+ ========================*/
+ @media only screen and (max-width: 766px) {
+     .comments-container {
+         width: 480px;
+     }
+
+     .comments-list .comment-box {
+         width: 390px;
+     }
+
+     .reply-list .comment-box {
+         width: 320px;
+     }
+ }
